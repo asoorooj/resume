@@ -1,6 +1,6 @@
 # Anthony Sooroojbally
 
-[LinkedIn](https://www.linkedin.com/in/anthony-sooroojbally-11a048340) · [GitHub](https://github.com/asoorooj)
+[sooroojballyanthony@gmail.com](mailto:sooroojballyanthony@gmail.com) · (917) 705-6903 · [LinkedIn](https://www.linkedin.com/in/anthony-sooroojbally-11a048340) · [GitHub](https://github.com/asoorooj)
 
 ---
 
