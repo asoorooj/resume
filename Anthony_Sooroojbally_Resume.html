@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony Sooroojbally — Resume</title>
+
+  <style>
+    /* =========================================================
+       PAGE / PRINT
+       ========================================================= */
+
+    @page {
+      size: Letter;
+      margin: 0.45in;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      font-size: 102%;
+    }
+
+    body {
+      background: #eef1f5;
+      color: #20242a;
+      font-family: "Spectral", Georgia, serif;
+      line-height: 1.52;
+      font-size: 1rem;
+    }
+
+
+    /* =========================================================
+       RESUME PAGE
+       ========================================================= */
+
+    .resume-page {
+      width: 8.5in;
+      margin: 24px auto;
+      padding: 0.38in 0.48in;
+      background: #ffffff;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.10);
+    }
+
+
+    /* =========================================================
+       HEADER
+       ========================================================= */
+
+    .resume-header {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    .resume-name {
+      margin: 0 0 5px;
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .resume-contact {
+      font-size: 11px;
+      color: #4e5966;
+    }
+
+    .resume-contact a {
+      color: blue;
+      text-decoration: underline;
+    }
+
+
+    /* =========================================================
+       SECTIONS
+       ========================================================= */
+
+    .resume-section {
+      margin-top: 17px;
+    }
+
+    .section-title {
+      margin: 0 0 8px;
+      padding-bottom: 3px;
+      border-bottom: 1.2px solid #20242a;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+    }
+
+
+    /* =========================================================
+       RESUME ENTRIES
+       ========================================================= */
+
+    .resume-entry {
+      margin-bottom: 11px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 14px;
+      font-size: 0.9rem;
+    }
+
+    .entry-title {
+      font-weight: 700;
+    }
+
+    .entry-location {
+      color: #4e5966;
+      font-weight: 400;
+    }
+
+    .entry-location::before {
+      content: " | ";
+      color: #20242a;
+    }
+
+    .entry-date {
+      flex-shrink: 0;
+      color: #4e5966;
+      font-style: italic;
+      white-space: nowrap;
+    }
+
+
+    /* =========================================================
+       POSITION / SUBHEADER
+       ========================================================= */
+
+    .entry-subheader {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 14px;
+      margin-top: 1px;
+      font-size: 11.5px;
+    }
+
+    .entry-position {
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       TEXT / BULLETS
+       ========================================================= */
+
+    .entry-description {
+      margin: 4px 0;
+      font-size: 11px;
+    }
+
+    .resume-list {
+      margin: 4px 0 0 17px;
+      padding: 0;
+    }
+
+    .resume-list-item {
+      margin: 3px 0;
+      font-size: 0.8rem;
+    }
+
+
+    /* =========================================================
+       SKILLS
+       ========================================================= */
+
+    .skills-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .skill-row {
+      margin: 3px 0;
+      font-size: 11px;
+    }
+
+    .skill-category {
+      font-weight: 700;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+       ========================================================= */
+
+    @media (max-width: 700px) {
+      .resume-page {
+        width: 100%;
+        margin: 0;
+        padding: 28px 24px;
+        box-shadow: none;
+      }
+
+      .entry-header,
+      .entry-subheader {
+        display: block;
+      }
+
+      .entry-location {
+        display: inline;
+      }
+
+      .entry-date {
+        display: block;
+        margin-top: 2px;
+      }
+    }
+
+
+    /* =========================================================
+       PRINT
+       ========================================================= */
+
+    @media print {
+      html,
+      body {
+        width: 8.5in;
+        background: #ffffff;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .resume-page {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+      }
+
+      .resume-section,
+      .resume-entry {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<main class="resume-page">
+
+  <header class="resume-header">
+    <h1 class="resume-name">Anthony Sooroojbally</h1>
+
+    <div class="resume-contact">
+      <a href="mailto:sooroojballyanthony@gmail.com">
+        sooroojballyanthony@gmail.com
+      </a>
+      &nbsp;•&nbsp;
+      (917) 705-6903
+      &nbsp;•&nbsp;
+      <a href="https://www.linkedin.com/in/anthony-sooroojbally-11a048340">
+        linkedin.com/in/anthony-sooroojbally-11a048340
+      </a>
+      &nbsp;•&nbsp;
+      <a href="https://github.com/asoorooj">
+        github.com/asoorooj
+      </a>
+    </div>
+  </header>
+
+
+  <section class="resume-section">
+    <h2 class="section-title">EDUCATION</h2>
+
+    <div class="resume-entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">New York Institute of Technology</span>
+          <span class="entry-location">New York, NY</span>
+        </div>
+      </div>
+
+      <div class="entry-subheader">
+        <span class="entry-position">M.S. in Data Science | GPA: 4.0/4.0</span>
+        <span class="entry-date">Expected May 2028</span>
+      </div>
+
+      <div class="entry-subheader">
+          <span class="entry-position">
+            B.S. in Computer Science (Concentration: Data Science) |
+            Minor: Graphic Design | GPA: 3.9/4.0
+          </span>
+        <span class="entry-date">May 2026</span>
+      </div>
+
+      <p class="entry-description" style="text-indent: 20px">
+        <strong>Relevant Coursework:</strong> Data Structures &amp; Algorithms,
+        Database Management, Software Engineering, Data Mining, Machine Learning
+      </p>
+
+      <p class="entry-description" style="text-indent: 20px">
+        <strong>Awards &amp; Honors:</strong> President’s List
+        (Fall 2023 - Spring 2026)
+      </p>
+    </div>
+  </section>
+
+
+  <section class="resume-section">
+    <h2 class="section-title">CERTIFICATES</h2>
+
+    <div class="resume-entry">
+      <div class="entry-header">
+          <span class="entry-title">
+            NVIDIA Deep Learning Institute: Getting Started with Deep Learning
+          </span>
+        <span class="entry-date">December 2025</span>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="resume-section">
+    <h2 class="section-title">WORK EXPERIENCE</h2>
+
+    <div class="resume-entry">
+
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Metropolitan Transit Authority</span>
+          <span class="entry-location">New York, NY</span>
+        </div>
+
+        <span class="entry-date">
+            September 2025 - October 2026
+          </span>
+      </div>
+
+      <div class="entry-subheader">
+          <span class="entry-position">
+            Emerging Talent Software Engineer &amp; Data Analyst
+          </span>
+      </div>
+
+      <ul class="resume-list">
+        <li class="resume-list-item">
+          Developed full-stack internal software across frontend, backend,
+          and database layers using Spring Boot, React, and Oracle,
+          improving efficiency, usability, and workflow by automating
+          8 hours of manual data transformation per week.
+        </li>
+
+        <li class="resume-list-item">
+          Improved database transaction throughput by 15% using HxGN EAM
+          and enterprise RESTful and SOAP APIs for secure data retrieval,
+          system integration, and streamlined visualizations.
+        </li>
+
+        <li class="resume-list-item">
+          Resolved data tickets with Microsoft Office Suite and Python’s
+          pandas library, following established processes to support
+          development, testing, and production pipeline, increasing task
+          completion rates by 30%.
+        </li>
+
+        <li class="resume-list-item">
+          Managed inter-divisional data operations between 13 departments
+          and maintained technical applications, utilizing JIRA and
+          Confluence to coordinate tasks between teams through agile
+          work cycles.
+        </li>
+
+        <li class="resume-list-item">
+          Presented and spearheaded adoption of new applications and tools
+          with Figma and Confluence to a department of 50+ people, and
+          created training resources and documentation to maintain 25%
+          of consistent users across these tools.
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+
+  <section class="resume-section">
+    <h2 class="section-title">TECHNICAL PROJECTS</h2>
+
+    <div class="resume-entry">
+      <div class="entry-header">
+          <span class="entry-title">
+            Mobile Application &amp; AI Model, New York Institute of Technology
+          </span>
+        <span class="entry-date">
+            Research Project | Summer 2026
+          </span>
+      </div>
+
+      <ul class="resume-list">
+        <li class="resume-list-item">
+          Developed features for a full-stack mobile application supporting
+          multimodal emotion collection and analysis using React Native,
+          Flask, PyTorch, Scikit-Learn, and Firebase.
+        </li>
+
+        <li class="resume-list-item">
+          Designed ethical data collection workflows using surveys and
+          gamified activities to gather biometric data.
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="resume-entry">
+      <div class="entry-header">
+          <span class="entry-title">
+            Kokoro - Mobile Application &amp; AI Model
+          </span>
+        <span class="entry-date">
+            Academic Project | Fall 2025
+          </span>
+      </div>
+
+      <ul class="resume-list">
+        <li class="resume-list-item">
+          Developed a full-stack mobile application with React Native,
+          Flask, PyTorch, and PostgreSQL.
+        </li>
+
+        <li class="resume-list-item">
+          Trained and maintained a multi-modal weighted AI model using
+          PyTorch, composed of CNNs and Transformers.
+        </li>
+
+        <li class="resume-list-item">
+          Enables users to leverage AI models to support mental health
+          with interactive interface and mobile convenience.
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="resume-entry">
+      <div class="entry-header">
+          <span class="entry-title">
+            Discord External Controller - User API &amp; Web App
+          </span>
+        <span class="entry-date">
+            Personal Project | Summer 2025
+          </span>
+      </div>
+
+      <ul class="resume-list">
+        <li class="resume-list-item">
+          Developed a full-stack JavaFX app using SpringBoot and MySQL,
+          supporting RESTful and SOAP API operations.
+        </li>
+
+        <li class="resume-list-item">
+          Used external Discord JDA API to allow users to input credentials
+          to interact with Discord through the app.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section class="resume-section">
+    <h2 class="section-title">SKILLS</h2>
+
+    <div class="skills-list">
+
+      <p class="skill-row">
+        <span class="skill-category">Programming Languages:</span>
+        Java, JavaScript/TypeScript, HTML, CSS, SQL, Python, C, C++
+      </p>
+
+      <p class="skill-row">
+        <span class="skill-category">Data Technologies:</span>
+        MySQL, MongoDB, Firebase, JPA (Hibernate), AppWrite, NumPy/Pandas,
+        Hadoop, Spark
+      </p>
+
+      <p class="skill-row">
+        <span class="skill-category">Tools &amp; Libraries:</span>
+        Git, React (Native), ExpressJS, SpringBoot, Tailwind CSS, PyTorch,
+        Docker, HTMX, Figma, AWS
+      </p>
+
+      <p class="skill-row">
+        <span class="skill-category">Concepts:</span>
+        Relational Databases, RESTful APIs, Schema Design, CRUD Operations,
+        Data Cleaning
+      </p>
+
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
